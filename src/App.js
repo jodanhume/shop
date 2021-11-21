@@ -12,7 +12,7 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      Header:{title: 'S.P.A', sub:'brand name'},
+      Header:{title: 'S.P.A', sub:'Spa'},
       toggle: {
         slide: function(e) {
           let asideNav = document.getElementById('asideNav');
