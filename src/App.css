@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.asideNav {
+    width: 200px;
+    left: -200px;
+}
+.asideNavOpen {
+    transition: all .4s ease-in-out;
+    transform: translateX(200px);
+}
